@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol Restaurante</title>
+    <link rel="stylesheet" href="restaurante.css">
+    <link rel="stylesheet" href="fale_conosco.css">
+</head>
+<script src="restaurante.js"></script>
+
+<body>
+
+<div id="interface">
+<header id="cabecalho">
+    <hgroup>
+    <h1> <br><br><br>A Mehor Comida Caseira da Região<br><br><br></h1>
+    <h2></h2>
+    </hgroup>
+
+
+<figure class="logo-principal">
+    <h3><img src="imagens/Carol5.png"/></h3>
+    <figcaption>
+        
+    </figcaption>
+</figure>
+    <img id="icone" src="imagens/macarrao.png">
+    <nav id="menu">
+    <h1>Menu</h1>
+    <ul>
+        <li onmousemove="muda_img('imagens/home.png')" onmouseout="muda_img('imagens/macarrao.png')"><a href="restaurante.html">HOME</a></li>
+        
+        
+
+        <li onmousemove="muda_img('imagens/historia.png')" onmouseout="muda_img('imagens/macarrao.png')"><a href="nossa_historia.html"> NOSSA HISTÓRIA</a></li>
+        
+        <li onmousemove="muda_img('imagens/contato.png')" onmouseout="muda_img('imagens/macarrao.png')"><a href="fale_conosco.html">FALE CONOSCO</a></li>
+    </ul>
+</nav>
+</header>
+
+<img id="luz" src="imagens/lampada.png"/><br><br><br>
+
+<form method="POST" id="fContato" action="mailto:ma_gr_ello@hotmail.com">
+<fieldset>
+    <legend>Fale Conosco!</legend>
+    <h1 id="fale_conosco">Sugestões ou algo que podemos melhorar? Conte para agente!</h1>
+    <p><label for="cNome">Nome: &nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="text" name="tNome" id="cNome" size="50" maxlength="30" placeholder="Seu nome"> </p>
+
+    <p><label for="cEmail">E-mail: &nbsp&nbsp&nbsp&nbsp</label><input type="email" name="tEmail" id="cEmail" size="50" maxlength="80" placeholder="Seu e-mail"> </p>
+
+    <p><label for="cDesc">Descrição:</label><textarea name="tDesc" id="cDesc" cols="53" rows="5" placeholder="Ex.: Sugestão, Reclamação para melhor atendê-lo(a)..."></textarea> </p>
+    
+    <input type="image" name="tEnviar" src="imagens/botao-enviar.png">
+</fieldset>
+
+
+
+<div id="rodape">
+    <footer id="rodape">
+        <p>
+            Carol Restaurante &reg; 2020 Rua Abelardo Luz, 263 - Jardim Mutinga, Barueri - SP, 06463-260<br/><h3 id="rodape">Whatsapp (11)95069-1762</h3><h2 id="rodape">Siga-nos</h2>
+            <a id="face" href="https://www.facebook.com/restaurantecarol"target="_blank"><img src="imagens/face.png"></a>|
+            <a id="insta" href="https://www.instagram.com/carolrestaurante/"target="_blank"><img src="imagens/insta.png"></a>
+            <p id="rodape"> By Gerson Reis-HKTI&reg; (11)96064-0079</p>
+        </p>
+    </footer>
+    </div>  
+    </body>
+    </html>
